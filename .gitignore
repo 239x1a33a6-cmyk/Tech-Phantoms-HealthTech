@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+.next/
+
+# Environment files — NEVER commit secrets
+.env
+.env.local
+.env.production
+.env.staging
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Debug / Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+*.lcov
+
+# Database files
+*.sqlite
+*.db
+*.sqlite3
+
+# Security — Private keys / certs
+*.pem
+*.key
+*.crt
+private/
+private_keys/
+
+# Raw geospatial data (heavy shapefiles)
+*.shp
+*.dbf
+*.shx
+*.prj
+indian-district-boundaries-master/
+
+# Upload directories
+backend/uploads/
+uploads/
+
+# Lint artifacts
+lint-errors.json
+
+# Misc generated
+auto-imports.d.ts
+*.tsbuildinfo

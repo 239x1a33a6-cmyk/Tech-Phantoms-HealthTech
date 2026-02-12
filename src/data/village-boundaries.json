@@ -1,0 +1,149 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "majuli",
+            "properties": {
+                "name": "Majuli",
+                "riskScore": 85,
+                "riskLevel": "Critical"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            94.1,
+                            26.9
+                        ],
+                        [
+                            94.2,
+                            26.9
+                        ],
+                        [
+                            94.2,
+                            27.0
+                        ],
+                        [
+                            94.1,
+                            27.0
+                        ],
+                        [
+                            94.1,
+                            26.9
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bishnupur",
+            "properties": {
+                "name": "Bishnupur",
+                "riskScore": 45,
+                "riskLevel": "Medium"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            94.2,
+                            26.8
+                        ],
+                        [
+                            94.3,
+                            26.8
+                        ],
+                        [
+                            94.3,
+                            26.9
+                        ],
+                        [
+                            94.2,
+                            26.9
+                        ],
+                        [
+                            94.2,
+                            26.8
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "garmur",
+            "properties": {
+                "name": "Garmur",
+                "riskScore": 12,
+                "riskLevel": "Low"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            94.0,
+                            26.85
+                        ],
+                        [
+                            94.1,
+                            26.85
+                        ],
+                        [
+                            94.1,
+                            26.95
+                        ],
+                        [
+                            94.0,
+                            26.95
+                        ],
+                        [
+                            94.0,
+                            26.85
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "kamalabari",
+            "properties": {
+                "name": "Kamalabari",
+                "riskScore": 65,
+                "riskLevel": "High"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            94.15,
+                            26.8
+                        ],
+                        [
+                            94.25,
+                            26.8
+                        ],
+                        [
+                            94.25,
+                            26.85
+                        ],
+                        [
+                            94.15,
+                            26.85
+                        ],
+                        [
+                            94.15,
+                            26.8
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

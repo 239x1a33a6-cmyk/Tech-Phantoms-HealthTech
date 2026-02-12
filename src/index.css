@@ -1,0 +1,12 @@
+@import 'remixicon/fonts/remixicon.css';
+@import 'leaflet/dist/leaflet.css';
+
+:root {
+  --primary: #FFD700;
+  --secondary: #00A86B;
+  --navy: #000080;
+  --navy-dark: #000040;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
