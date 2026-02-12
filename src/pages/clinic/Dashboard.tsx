@@ -1,11 +1,13 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../context/AuthContext';
 import { mockClinicalCases, mockMedicalAdvisories, diseasePatternsDB } from '../../mocks/clinical-mock-data';
 import { ClinicalCase, SeverityLevel } from '../../types/clinical-types';
 
 export default function ClinicDashboard() {
     const navigate = useNavigate();
+    const { logout } = useAuth();
     const [cases] = useState<ClinicalCase[]>(mockClinicalCases);
     const [selectedCase, setSelectedCase] = useState<ClinicalCase | null>(null);
     const [activeTab, setActiveTab] = useState<'overview' | 'analytics' | 'advisory' | 'history'>('overview');
@@ -66,6 +68,13 @@ export default function ClinicDashboard() {
                                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Medical Officer</p>
                                 <p className="text-sm font-bold text-slate-800">Dr. Ramesh Kumar</p>
                             </div>
+                            <button
+                                onClick={() => logout()}
+                                className="ml-2 w-8 h-8 flex items-center justify-center rounded-lg bg-red-50 text-red-600 hover:bg-red-100 transition-colors"
+                                title="Logout"
+                            >
+                                <i className="ri-logout-box-r-line"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
