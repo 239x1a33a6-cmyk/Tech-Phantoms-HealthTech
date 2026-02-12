@@ -48,16 +48,12 @@ coverage/
 private/
 private_keys/
 
-# Raw binary shapefiles
+# Raw geospatial data (heavy shapefiles)
 *.shp
 *.dbf
 *.shx
 *.prj
-
-# Heavy GeoJSON files (50MB+ villages file hits GitHub limits)
-indian-district-boundaries-master/TELANGANA/TELANGANA_VILLAGES.geojson
-# Other states topojson (not needed for this project)
-indian-district-boundaries-master/topojson/
+indian-district-boundaries-master/
 
 # Upload directories
 backend/uploads/
